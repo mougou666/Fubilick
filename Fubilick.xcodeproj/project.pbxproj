@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53102BA03034590700B41645 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53102B9F3034590700B41645 /* UIKit.framework */; };
+		53102BA23034590700B41645 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53102BA13034590700B41645 /* Foundation.framework */; };
+		53102BA43034590700B41645 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53102BA33034590700B41645 /* CoreGraphics.framework */; };
+		53102BAA3034590700B41645 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53102BA83034590700B41645 /* InfoPlist.strings */; };
+		53102BAC3034590700B41645 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BAB3034590700B41645 /* main.m */; };
+		53102BB03034590700B41645 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BAF3034590700B41645 /* AppDelegate.m */; };
+		53102BB83034594100B41645 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BB73034594100B41645 /* HomeViewController.m */; };
+		53102BBB3034598000B41645 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BBA3034598000B41645 /* SearchViewController.m */; };
+		53102BBE303459BB00B41645 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BBD303459BB00B41645 /* PlayerViewController.m */; };
+		53102BC1303459F500B41645 /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BC0303459F500B41645 /* VideoCell.m */; };
+		53102BC430345A3200B41645 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BC330345A3200B41645 /* JSONKit.m */; };
+		53102BC630345D4700B41645 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53102BC530345D4700B41645 /* MediaPlayer.framework */; };
+		53102BC930346D5C00B41645 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BC830346D5C00B41645 /* UserCenterViewController.m */; };
+		53102BCC30346D9900B41645 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53102BCB30346D9900B41645 /* AboutViewController.m */; };
+		53102BCE303475E500B41645 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 53102BCD303475E500B41645 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53102B9B3034590700B41645 /* Fubilick(Demo).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fubilick(Demo).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53102B9F3034590700B41645 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53102BA13034590700B41645 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53102BA33034590700B41645 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53102BA73034590700B41645 /* Fubilick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fubilick-Info.plist"; sourceTree = "<group>"; };
+		53102BA93034590700B41645 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53102BAB3034590700B41645 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53102BAD3034590700B41645 /* Fubilick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fubilick-Prefix.pch"; sourceTree = "<group>"; };
+		53102BAE3034590700B41645 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53102BAF3034590700B41645 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53102BB63034594100B41645 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		53102BB73034594100B41645 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		53102BB93034598000B41645 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		53102BBA3034598000B41645 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		53102BBC303459BB00B41645 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		53102BBD303459BB00B41645 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		53102BBF303459F500B41645 /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		53102BC0303459F500B41645 /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
+		53102BC230345A3200B41645 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		53102BC330345A3200B41645 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		53102BC530345D4700B41645 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		53102BC730346D5B00B41645 /* UserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
+		53102BC830346D5C00B41645 /* UserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
+		53102BCA30346D9900B41645 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		53102BCB30346D9900B41645 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		53102BCD303475E500B41645 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53102B983034590700B41645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53102BC630345D4700B41645 /* MediaPlayer.framework in Frameworks */,
+				53102BA03034590700B41645 /* UIKit.framework in Frameworks */,
+				53102BA23034590700B41645 /* Foundation.framework in Frameworks */,
+				53102BA43034590700B41645 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53102B903034590700B41645 = {
+			isa = PBXGroup;
+			children = (
+				53102BCD303475E500B41645 /* icon.png */,
+				53102BC530345D4700B41645 /* MediaPlayer.framework */,
+				53102BA53034590700B41645 /* Fubilick */,
+				53102B9E3034590700B41645 /* Frameworks */,
+				53102B9C3034590700B41645 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53102B9C3034590700B41645 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53102B9B3034590700B41645 /* Fubilick(Demo).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53102B9E3034590700B41645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53102B9F3034590700B41645 /* UIKit.framework */,
+				53102BA13034590700B41645 /* Foundation.framework */,
+				53102BA33034590700B41645 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53102BA53034590700B41645 /* Fubilick */ = {
+			isa = PBXGroup;
+			children = (
+				53102BB63034594100B41645 /* HomeViewController.h */,
+				53102BCA30346D9900B41645 /* AboutViewController.h */,
+				53102BCB30346D9900B41645 /* AboutViewController.m */,
+				53102BC730346D5B00B41645 /* UserCenterViewController.h */,
+				53102BC830346D5C00B41645 /* UserCenterViewController.m */,
+				53102BB73034594100B41645 /* HomeViewController.m */,
+				53102BC230345A3200B41645 /* JSONKit.h */,
+				53102BC330345A3200B41645 /* JSONKit.m */,
+				53102BB93034598000B41645 /* SearchViewController.h */,
+				53102BBC303459BB00B41645 /* PlayerViewController.h */,
+				53102BBF303459F500B41645 /* VideoCell.h */,
+				53102BC0303459F500B41645 /* VideoCell.m */,
+				53102BBD303459BB00B41645 /* PlayerViewController.m */,
+				53102BBA3034598000B41645 /* SearchViewController.m */,
+				53102BAE3034590700B41645 /* AppDelegate.h */,
+				53102BAF3034590700B41645 /* AppDelegate.m */,
+				53102BA63034590700B41645 /* Supporting Files */,
+			);
+			path = Fubilick;
+			sourceTree = "<group>";
+		};
+		53102BA63034590700B41645 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53102BA73034590700B41645 /* Fubilick-Info.plist */,
+				53102BA83034590700B41645 /* InfoPlist.strings */,
+				53102BAB3034590700B41645 /* main.m */,
+				53102BAD3034590700B41645 /* Fubilick-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53102B9A3034590700B41645 /* Fubilick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53102BB33034590700B41645 /* Build configuration list for PBXNativeTarget "Fubilick" */;
+			buildPhases = (
+				53102B973034590700B41645 /* Sources */,
+				53102B983034590700B41645 /* Frameworks */,
+				53102B993034590700B41645 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fubilick;
+			productName = Fubilick;
+			productReference = 53102B9B3034590700B41645 /* Fubilick(Demo).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53102B923034590700B41645 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 53102B953034590700B41645 /* Build configuration list for PBXProject "Fubilick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53102B903034590700B41645;
+			productRefGroup = 53102B9C3034590700B41645 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53102B9A3034590700B41645 /* Fubilick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53102B993034590700B41645 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53102BAA3034590700B41645 /* InfoPlist.strings in Resources */,
+				53102BCE303475E500B41645 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53102B973034590700B41645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53102BAC3034590700B41645 /* main.m in Sources */,
+				53102BB03034590700B41645 /* AppDelegate.m in Sources */,
+				53102BB83034594100B41645 /* HomeViewController.m in Sources */,
+				53102BBB3034598000B41645 /* SearchViewController.m in Sources */,
+				53102BBE303459BB00B41645 /* PlayerViewController.m in Sources */,
+				53102BC1303459F500B41645 /* VideoCell.m in Sources */,
+				53102BC430345A3200B41645 /* JSONKit.m in Sources */,
+				53102BC930346D5C00B41645 /* UserCenterViewController.m in Sources */,
+				53102BCC30346D9900B41645 /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53102BA83034590700B41645 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53102BA93034590700B41645 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53102BB13034590700B41645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53102BB23034590700B41645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53102BB43034590700B41645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fubilick/Fubilick-Prefix.pch";
+				INFOPLIST_FILE = "Fubilick/Fubilick-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "Fubilick(Demo)";
+				SDKROOT = iphoneos4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53102BB53034590700B41645 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fubilick/Fubilick-Prefix.pch";
+				INFOPLIST_FILE = "Fubilick/Fubilick-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "Fubilick(Demo)";
+				SDKROOT = iphoneos4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53102B953034590700B41645 /* Build configuration list for PBXProject "Fubilick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53102BB13034590700B41645 /* Debug */,
+				53102BB23034590700B41645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53102BB33034590700B41645 /* Build configuration list for PBXNativeTarget "Fubilick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53102BB43034590700B41645 /* Debug */,
+				53102BB53034590700B41645 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53102B923034590700B41645 /* Project object */;
+}
